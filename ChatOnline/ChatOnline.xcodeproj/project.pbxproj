@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		376773ED1C2B8B6A00BAA881 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 376773EC1C2B8B6A00BAA881 /* main.m */; };
+		376773F31C2B8B6A00BAA881 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 376773F21C2B8B6A00BAA881 /* ViewController.m */; };
+		376773F61C2B8B6A00BAA881 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 376773F41C2B8B6A00BAA881 /* Main.storyboard */; };
+		376773F81C2B8B6A00BAA881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 376773F71C2B8B6A00BAA881 /* Assets.xcassets */; };
+		376773FB1C2B8B6A00BAA881 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 376773F91C2B8B6A00BAA881 /* LaunchScreen.storyboard */; };
+		376774171C2B8BF900BAA881 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 376774051C2B8BF900BAA881 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		376773E81C2B8B6A00BAA881 /* ChatOnline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatOnline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		376773EC1C2B8B6A00BAA881 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		376773F11C2B8B6A00BAA881 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		376773F21C2B8B6A00BAA881 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		376773F51C2B8B6A00BAA881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		376773F71C2B8B6A00BAA881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		376773FA1C2B8B6A00BAA881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		376773FC1C2B8B6A00BAA881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		376774041C2B8BF900BAA881 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		376774051C2B8BF900BAA881 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		376774111C2B8BF900BAA881 /* APPHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPHeader.h; sourceTree = "<group>"; };
+		376774121C2B8BF900BAA881 /* IMPHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMPHeader.h; sourceTree = "<group>"; };
+		376774131C2B8BF900BAA881 /* KEYHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KEYHeader.h; sourceTree = "<group>"; };
+		376774141C2B8BF900BAA881 /* URLHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLHeader.h; sourceTree = "<group>"; };
+		376774181C2B8C0A00BAA881 /* ChatOnline.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ChatOnline.pch; path = Source/ChatOnline.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		376773E51C2B8B6A00BAA881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		376773DF1C2B8B6A00BAA881 = {
+			isa = PBXGroup;
+			children = (
+				376773EA1C2B8B6A00BAA881 /* ChatOnline */,
+				376773E91C2B8B6A00BAA881 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		376773E91C2B8B6A00BAA881 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				376773E81C2B8B6A00BAA881 /* ChatOnline.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		376773EA1C2B8B6A00BAA881 /* ChatOnline */ = {
+			isa = PBXGroup;
+			children = (
+				376774021C2B8BF900BAA881 /* Source */,
+				376774181C2B8C0A00BAA881 /* ChatOnline.pch */,
+				376773F11C2B8B6A00BAA881 /* ViewController.h */,
+				376773F21C2B8B6A00BAA881 /* ViewController.m */,
+				376773F41C2B8B6A00BAA881 /* Main.storyboard */,
+				376773F71C2B8B6A00BAA881 /* Assets.xcassets */,
+				376773F91C2B8B6A00BAA881 /* LaunchScreen.storyboard */,
+				376773FC1C2B8B6A00BAA881 /* Info.plist */,
+				376773EB1C2B8B6A00BAA881 /* Supporting Files */,
+			);
+			path = ChatOnline;
+			sourceTree = "<group>";
+		};
+		376773EB1C2B8B6A00BAA881 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				376773EC1C2B8B6A00BAA881 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		376774021C2B8BF900BAA881 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				376774031C2B8BF900BAA881 /* Application */,
+				376774061C2B8BF900BAA881 /* BaseClass */,
+				376774071C2B8BF900BAA881 /* CodeClass */,
+				3767740B1C2B8BF900BAA881 /* DataBase */,
+				3767740C1C2B8BF900BAA881 /* EnNetWork */,
+				3767740D1C2B8BF900BAA881 /* Framework */,
+				3767740E1C2B8BF900BAA881 /* Global */,
+				3767740F1C2B8BF900BAA881 /* Helper */,
+				376774101C2B8BF900BAA881 /* Macro */,
+				376774151C2B8BF900BAA881 /* Resources */,
+				376774161C2B8BF900BAA881 /* TheThird */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		376774031C2B8BF900BAA881 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				376774041C2B8BF900BAA881 /* AppDelegate.h */,
+				376774051C2B8BF900BAA881 /* AppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		376774061C2B8BF900BAA881 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		376774071C2B8BF900BAA881 /* CodeClass */ = {
+			isa = PBXGroup;
+			children = (
+				376774081C2B8BF900BAA881 /* Controller */,
+				376774091C2B8BF900BAA881 /* Model */,
+				3767740A1C2B8BF900BAA881 /* View */,
+			);
+			path = CodeClass;
+			sourceTree = "<group>";
+		};
+		376774081C2B8BF900BAA881 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		376774091C2B8BF900BAA881 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3767740A1C2B8BF900BAA881 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3767740B1C2B8BF900BAA881 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		3767740C1C2B8BF900BAA881 /* EnNetWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EnNetWork;
+			sourceTree = "<group>";
+		};
+		3767740D1C2B8BF900BAA881 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		3767740E1C2B8BF900BAA881 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		3767740F1C2B8BF900BAA881 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		376774101C2B8BF900BAA881 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				376774111C2B8BF900BAA881 /* APPHeader.h */,
+				376774121C2B8BF900BAA881 /* IMPHeader.h */,
+				376774131C2B8BF900BAA881 /* KEYHeader.h */,
+				376774141C2B8BF900BAA881 /* URLHeader.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		376774151C2B8BF900BAA881 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		376774161C2B8BF900BAA881 /* TheThird */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TheThird;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		376773E71C2B8B6A00BAA881 /* ChatOnline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 376773FF1C2B8B6A00BAA881 /* Build configuration list for PBXNativeTarget "ChatOnline" */;
+			buildPhases = (
+				376773E41C2B8B6A00BAA881 /* Sources */,
+				376773E51C2B8B6A00BAA881 /* Frameworks */,
+				376773E61C2B8B6A00BAA881 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatOnline;
+			productName = ChatOnline;
+			productReference = 376773E81C2B8B6A00BAA881 /* ChatOnline.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		376773E01C2B8B6A00BAA881 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = QQLS;
+				TargetAttributes = {
+					376773E71C2B8B6A00BAA881 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = CM6QY89W96;
+					};
+				};
+			};
+			buildConfigurationList = 376773E31C2B8B6A00BAA881 /* Build configuration list for PBXProject "ChatOnline" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 376773DF1C2B8B6A00BAA881;
+			productRefGroup = 376773E91C2B8B6A00BAA881 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				376773E71C2B8B6A00BAA881 /* ChatOnline */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		376773E61C2B8B6A00BAA881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				376773FB1C2B8B6A00BAA881 /* LaunchScreen.storyboard in Resources */,
+				376773F81C2B8B6A00BAA881 /* Assets.xcassets in Resources */,
+				376773F61C2B8B6A00BAA881 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		376773E41C2B8B6A00BAA881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				376773F31C2B8B6A00BAA881 /* ViewController.m in Sources */,
+				376773ED1C2B8B6A00BAA881 /* main.m in Sources */,
+				376774171C2B8BF900BAA881 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		376773F41C2B8B6A00BAA881 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				376773F51C2B8B6A00BAA881 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		376773F91C2B8B6A00BAA881 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				376773FA1C2B8B6A00BAA881 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		376773FD1C2B8B6A00BAA881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		376773FE1C2B8B6A00BAA881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		376774001C2B8B6A00BAA881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ChatOnline/Source/ChatOnline.pch";
+				INFOPLIST_FILE = ChatOnline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qqls.ChatOnline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		376774011C2B8B6A00BAA881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ChatOnline/Source/ChatOnline.pch";
+				INFOPLIST_FILE = ChatOnline/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qqls.ChatOnline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		376773E31C2B8B6A00BAA881 /* Build configuration list for PBXProject "ChatOnline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				376773FD1C2B8B6A00BAA881 /* Debug */,
+				376773FE1C2B8B6A00BAA881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		376773FF1C2B8B6A00BAA881 /* Build configuration list for PBXNativeTarget "ChatOnline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				376774001C2B8B6A00BAA881 /* Debug */,
+				376774011C2B8B6A00BAA881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 376773E01C2B8B6A00BAA881 /* Project object */;
+}

@@ -1,0 +1,15 @@
+//
+//  ChatOnline.pch
+//  ChatOnline
+//
+//  Created by 时彬强 on 15/12/24.
+//  Copyright © 2015年 QQLS. All rights reserved.
+//
+
+#ifndef ChatOnline_pch
+#define ChatOnline_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* ChatOnline_pch */
